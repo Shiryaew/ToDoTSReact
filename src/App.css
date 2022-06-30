@@ -32,7 +32,76 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.textSelected {
+  text-decoration-line: 'line-through';
+  color: 'darkgray';
+}
+
+.item {
+  background-color: lightgray;
+  border-width: 10px;
+  border-color: black;
+  margin-left: 250px;
+  margin-right: 250px;
+  height: 100px;
+  justify-content: center;
+  border-bottom-width: 1px;
+
+
+}
+
+.removeButton {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  right: 270px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.removeButtonContent {
+  font-size: 20px;
+  align-self: center;
+}
+
+.addButton {
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  align-self: center;
+  border-radius: 50px;
+  justify-content: center;
+  position: absolute;
+  margin-top: 100;
+}
+
+.addButtonContent {
+  font-size: 30px;
+  align-self: center;
+  color: white;
+}
+
+.switch {
+
+  margin-left: 10;
+  position: absolute;
+}
+
+.itemText {
+  align-self: center;
+  margin-left: 80px;
+  font-size: 18px;
+  color: black;
+}
+
+.view {
+  padding-top: 25px;
 }
